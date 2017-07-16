@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_screen3__game_small_scr"
+    style="@style/activity_defaults"
+    android:orientation="horizontal"
+    android:weightSum="5"
+    android:showDividers="middle"
+    android:divider="@drawable/empty_horizontal_divider"
+    tools:context="edu.wcu.cs.fivecarddraw_gj.Screen3_Game">
+
+        <fragment
+            android:id="@+id/largeGameFragContainer1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:name="edu.wcu.cs.fivecarddraw_gj.WinListFragment"
+            tools:layout="@layout/fragment_win_list">
+        </fragment>
+
+        <fragment
+            android:id="@+id/largeGameFragContainer2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:name="edu.wcu.cs.fivecarddraw_gj.gameFragment"
+            tools:layout="@layout/fragment_game">
+
+        </fragment>
+
+</LinearLayout>

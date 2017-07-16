@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/activity_defaults"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+
+    '<!--=========================================================================================='-->'
+    '<!--                          Holds the labels at the top of the screen                       '-->'
+    '<!--=========================================================================================='-->'
+    <LinearLayout
+        android:layout_weight="10"
+        android:id="@+id/top_container"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:text="Hands Played: "
+                android:id="@+id/hands_played_lbl"
+                android:layout_weight="1.3"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:id = "@+id/num_of_hands_played"
+                android:layout_weight="0.7"
+                android:text="0"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:text="Bank: $"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="0"
+                android:id = "@+id/bank_total"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:gravity="center"
+        android:id = "@+id/players_name"
+        android:text="Player's Hand"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:id="@+id/mid_container"
+        android:weightSum="50"
+        android:layout_weight="50">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:id="@+id/delt_card_1"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:id="@+id/delt_card_2"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:id="@+id/delt_card_3"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:id="@+id/delt_card_4"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:id="@+id/delt_card_5"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:orientation="horizontal"
+        android:weightSum="50">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="10dp"
+            android:layout_weight="10"
+            android:id="@+id/delt_card_choice_1"
+            android:text="@string/Hold"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="10dp"
+            android:id="@+id/delt_card_choice_2"
+            android:layout_weight="10"
+            android:text="@string/Hold"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="10dp"
+            android:id="@+id/delt_card_choice_3"
+            android:layout_weight="10"
+            android:text="@string/Hold"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="10dp"
+            android:id="@+id/delt_card_choice_4"
+            android:layout_weight="10"
+            android:text="@string/Hold"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/delt_card_choice_5"
+            android:textSize="10dp"
+            android:layout_weight="10"
+            android:text="@string/Hold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_weight="15"
+        android:weightSum="40">
+        <Button
+            android:layout_weight="10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="&lt; Menu"
+            android:id="@+id/menu"
+            android:textSize="10dp"
+            android:textAlignment="center"/>
+        <Button
+            android:layout_weight="10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/Deal"
+            android:id="@+id/deal"
+            android:textSize="10dp"
+            android:textAlignment="center"/>
+        <Button
+            android:layout_weight="10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="10dp"
+            android:textAlignment="center"
+            android:id="@+id/win_hands_play_button"
+            android:text="Wins >"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_screen6__win_list"
+    style="@style/activity_defaults"
+    android:orientation="vertical"
+    tools:context="edu.wcu.cs.fivecarddraw_gj.Screen6_WinList">
+
+
+    <fragment
+        android:id="@+id/winListFragContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="edu.wcu.cs.fivecarddraw_gj.WinListFragment"
+        tools:layout="@layout/fragment_win_list">
+
+    </fragment>
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_screen7__player_name"
+    style="@style/activity_defaults"
+    android:orientation="vertical"
+    android:weightSum="12"
+    tools:context="edu.wcu.cs.fivecarddraw_gj.Screen7_PlayerName">
+
+    <TextView
+        style="@style/txt_view"
+        android:layout_weight="3"
+        android:text="@string/scr7_title"
+        android:textSize="@dimen/title_text_size"
+        android:textStyle="bold"
+        android:gravity="center_vertical|center_horizontal"
+        android:textAllCaps="true"/>
+
+    <EditText
+        style="@style/button_style1"
+        android:id="@+id/scr7_edTxt1"
+        android:layout_weight="2"
+        android:paddingLeft="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        />
+    <Button
+        style="@style/button_style1"
+        android:text="@string/scr7_btn1"
+        android:id="@+id/scr7_btn1"
+        android:layout_weight="2"
+        />
+
+</LinearLayout>

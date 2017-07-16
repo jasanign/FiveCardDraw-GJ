@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_screen2__menu"
+    style="@style/activity_defaults"
+    android:weightSum="12"
+    android:orientation="vertical"
+    tools:context="edu.wcu.cs.fivecarddraw_gj.Screen2_Menu">
+
+    <TextView
+        style="@style/txt_view"
+        android:layout_weight="2"
+        android:text="@string/scr2_title"
+        android:textSize="@dimen/title_text_size"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textAllCaps="true"/>
+
+    <Button
+        style="@style/button_style1"
+        android:text="@string/scr2_btn1"
+        android:id="@+id/scr2_btn1"
+        android:layout_weight="2"
+        />
+    <Button
+        style="@style/button_style1"
+        android:text="@string/scr2_btn2"
+        android:id="@+id/scr2_btn2"
+        android:layout_weight="2"
+        />
+    <Button
+        style="@style/button_style1"
+        android:text="@string/scr2_btn3"
+        android:id="@+id/scr2_btn3"
+        android:layout_weight="2"
+        />
+
+</LinearLayout>

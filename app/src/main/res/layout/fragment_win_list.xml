@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:weightSum="11"
+    tools:context="edu.wcu.cs.fivecarddraw_gj.WinListFragment">
+
+    <TextView
+        android:id="@+id/winListTitle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        style="@style/txt_view"
+        android:text="@string/scr6_title"
+        android:textSize="@dimen/title_text_size"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textAllCaps="true"/>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9">
+    </ListView>
+
+</LinearLayout>

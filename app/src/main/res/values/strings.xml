@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Five Card Draw - GJ</string>
+
+    <!-- ........... Screen_2_menu ........... -->
+    <string name="scr2_title">Menu</string>
+    <string name="scr2_btn1">Player Name</string>
+    <string name="scr2_btn2">Play</string>
+    <string name="scr2_btn3">View Hands</string>
+
+    <!-- ........... Screen_6_win_list ........... -->
+    <string name="scr6_title">=wins=</string>
+
+    <!-- ........... Screen_7_player_name ........... -->
+    <string name="scr7_title">Enter Player Name</string>
+    <string name="scr7_btn1">OK</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Hold">Hold</string>
+    <string name="Deal">Deal</string>
+    <string name="Throw">Throw</string>
+
+    <string name="DialogMessageWin">    ===You Are A WINNER===</string>
+    <string name="DialogMessageLose">   ===Sorry, Try Again===</string>
+
+</resources>
+
